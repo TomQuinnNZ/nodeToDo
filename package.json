@@ -1,0 +1,19 @@
+{
+  "name": "nodetodo",
+  "version": "1.0.0",
+  "description": "To-Do List web app in NodeJS/Express/Mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Quinn",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
