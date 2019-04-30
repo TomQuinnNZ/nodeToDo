@@ -12,7 +12,7 @@ module.exports = (app) => {
         Todos.find({ username: request.params.uname }, (error, results) => {
             if (error) throw error;
 
-            response.send(todos);
+            response.send(results);
         });
     });
 

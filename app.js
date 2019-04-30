@@ -19,4 +19,6 @@ mongoose.connect(config.getDbConnectionString());
 // call setup controller to seed data.
 setupController(app);
 
+apiController(app);
+
 app.listen(port);
