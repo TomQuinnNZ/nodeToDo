@@ -3,6 +3,7 @@ var app = express();
 var mongoose = require('mongoose');
 var config = require('./config/config');
 var setupController = require('./controllers/setupController');
+var apiController = require('./controllers/apiController');
 
 // If environment is production, specify port, otherwise use 3000 locally.
 var port = process.env.PORT || 3000;

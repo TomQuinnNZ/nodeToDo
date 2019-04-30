@@ -1,4 +1,4 @@
-var Todos = require('../models/todoModel');
+var Todos = require('../models/toDoModel');
 var bodyParser = require('body-parser');
 
 module.exports = (app) => {
