@@ -52,4 +52,13 @@ module.exports = (app) => {
             });
         }
     });
+
+    app.delete('/api/todo', (request, response) => {
+
+        Todos.findByIdAndRemove(request.body.id, (error) => {
+            if (error) throw error;
+
+            response.send('Todo item deleted successfully.');
+        })
+    });
 }
